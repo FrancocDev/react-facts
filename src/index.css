@@ -22,8 +22,8 @@ nav {
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  padding: 30px 25px;
-  height: 60px;
+  padding: 1.875rem 1.5rem;
+  height: 3.75rem;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
 }
@@ -33,8 +33,8 @@ nav.dark {
 }
 
 .nav--logo_icon {
-  width: 30px;
-  margin-right: 10px;
+  width: 1.875rem;
+  margin-right: 0.625rem;
 }
 
 .nav--logo_text {
@@ -57,11 +57,11 @@ nav.dark {
 }
 
 .toggler--slider {
-  width: 25px;
-  height: 13px;
+  width: 1.5rem;
+  height: 0.8rem;
   background-color: #2B283A;
   border-radius: 2rem;
-  margin-inline: 7px;
+  margin-inline: 0.43rem;
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
@@ -76,8 +76,8 @@ nav.dark .toggler--slider {
 }
 
 .toggler--slider--circle {
-  height: 13px;
-  width: 13px;
+  height: 0.8rem;
+  width: 0.8rem;
   background-color: white;
   border-radius: 50%;
 }
@@ -108,11 +108,12 @@ nav.dark .toggler--slider {
 
 /* MAIN styles */
 main {
-  padding: 57px 27px;
+  width: 100%;
+  padding: 3.5rem 1.6rem;
   background-image: url("./public/react.svg");
-  background-size: 40%;
+  background-size: minmax(50%,40%);
   background-repeat: no-repeat;
-  background-position: 134% center;
+  background-position: 150% center;
   flex: 1 1 auto;
   background-color: white;
   color: #2B283A;
@@ -125,18 +126,18 @@ main.dark {
 
 .main--title {
   margin: 0;
-  font-size: 39px;
+  font-size: 2.4rem;
   letter-spacing: -0.05em;
 }
 
 .main--facts {
-  margin-top: 46px;
-  max-width: 400px;
+  margin-top: 2.8rem;
+  max-width: 25rem;
 }
 
 .main--facts > li {
-  line-height: 19px;
-  padding-block: 10px;
+  line-height: 1.2rem;
+  padding-block: 0.625rem;
 }
 
 .main--facts > li::marker {
